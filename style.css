@@ -1,4 +1,31 @@
+/*-----------company name---------*/
 .company_style
 {
-    color:brown
+    color:orangered;
+    font-weight: bold;
+    font-size: x-large;
 }
+.name_style
+{
+    font-size: x-large;
+}
+/* ----------best choise block---------------*/
+
+.best_choise{
+    
+    
+    background-color:rgba(8, 118, 70, 0.595);
+    border-radius: 0% 0% 100% 100%;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: white; 
+    margin-left: 65%;
+    width: 25%;
+    height: 10%;
+    font-size: 35PX;
+    PADDING: 22PX;
+    MARGIN-TOP: -63%;
+    
+}
+
