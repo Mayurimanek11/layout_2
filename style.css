@@ -9,23 +9,108 @@
 {
     font-size: x-large;
 }
+.company_name
+{
+    margin-top: 20px;
+    margin-top: 25px;
+    margin-left: 26px
+}
+
+
+.part_1
+{
+    display: flex;
+}
+.main_img
+{
+    z-index: -1;
+    width: 100%;
+    height: 400px;
+    margin-top: -86px;
+}
+
+    
+   
 /* ----------best choise block---------------*/
 
-.best_choise{
-    
-    
-    background-color:rgba(8, 118, 70, 0.595);
+.best_choice
+{
+
+    background-color:rgb(55 126 84 / 68%);
     border-radius: 0% 0% 100% 100%;
     font-size: 70px;
     font-weight: bold;
     text-align: center;
     color: white; 
-    margin-left: 65%;
-    width: 25%;
-    height: 10%;
-    font-size: 35PX;
-    PADDING: 22PX;
-    MARGIN-TOP: -63%;
+    width: 188px;
+    height: 173px;
+    font-size: 27PX;
+    margin-left:647px;
+    z-index: 1;
+    float: right;
     
 }
+/*----------------------bootam left part----------*/
+.srrvice_head
+{
+    
+    text-align: center;
+    color: blue;  
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 23px;
+    
+}
+.servies_name
+{
+    margin-left: 17px;
+    margin-bottom: -3px;
 
+}
+.number
+{
+    color: orangered;
+    font-size:60px;
+    font-weight:900;
+}
+
+
+.services
+{
+    display: flex;
+}
+/*-----------------------------bottam right part-----*/
+.blue_box
+{
+    
+    background-color: teal;
+    text-align: center;  
+    font-size:14px; 
+    width: 358px;
+    height: 168px;
+    color: white;
+    padding: 26px;
+
+}
+.orange_box
+{
+    background-color:orangered;
+    text-align: center;  
+    font-size:14px; 
+    width: 358px;
+    height: 168px;
+    color: white;
+    padding: 26px;
+}
+.last_box
+{
+    background-color:rgba(173, 216, 230, 0.835);
+    text-align: center;  
+    font-size:14px; 
+    width: 358px;
+    height: 32px;
+    color: white;
+    padding: 26px;
+
+    
+}
