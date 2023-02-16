@@ -1,9 +1,10 @@
 /*-----------company name---------*/
 .company_style
 {
-    color:orangered;
+    color:rgb(241, 108, 60);
     font-weight: bold;
     font-size: x-large;
+    
 }
 .name_style
 {
@@ -11,10 +12,23 @@
 }
 .company_name
 {
+    display: flex;
     margin-top: 20px;
     margin-top: 25px;
-    margin-left: 26px
+    margin-left: 26px;
 }
+.box
+{
+    border-color:rgba(24, 72, 75, 0.996); 
+    background-color: rgba(74, 115, 117, 0.996);
+    height: 31px;
+    width: 31px;
+    border-top: 8px solid;
+    border-left: 8px solid;
+    border-color: rgba(24, 72, 75, 0.996);
+    margin-inline: 25px;
+}
+
 
 
 .part_1
@@ -24,7 +38,7 @@
 .main_img
 {
     z-index: -1;
-    width: 100%;
+    width: 1048px;
     height: 400px;
     margin-top: -86px;
 }
@@ -36,16 +50,16 @@
 .best_choice
 {
 
-    background-color:rgb(55 126 84 / 68%);
+    background-color:rgba(74, 115, 117, 0.996);
     border-radius: 0% 0% 100% 100%;
     font-size: 70px;
     font-weight: bold;
     text-align: center;
     color: white; 
-    width: 188px;
-    height: 173px;
-    font-size: 27PX;
-    margin-left:647px;
+    width: 232px;
+    height: 175px;
+    font-size: 31PX;
+    margin-left:439px;
     z-index: 1;
     float: right;
     
@@ -55,7 +69,8 @@
 {
     
     text-align: center;
-    color: blue;  
+    color:rgba(74, 115, 117, 0.996);
+
     font-size: x-large;
     font-weight: bolder;
     padding: 23px;
@@ -65,11 +80,22 @@
 {
     margin-left: 17px;
     margin-bottom: -3px;
+    color:rgba(15, 99, 99, 0.886);
+    font-weight: bold;
 
+
+}
+
+.services_p
+{
+    color:rgba(74, 115, 117, 0.996);
+
+    font-size: smaller;
+    font-family: revert;
 }
 .number
 {
-    color: orangered;
+    color: rgb(241, 108, 60);
     font-size:60px;
     font-weight:900;
 }
@@ -82,35 +108,42 @@
 /*-----------------------------bottam right part-----*/
 .blue_box
 {
-    
-    background-color: teal;
+    background-color:rgba(74, 115, 117, 0.996);
+
     text-align: center;  
     font-size:14px; 
-    width: 358px;
+    width: 340px;
     height: 168px;
     color: white;
-    padding: 26px;
+    padding:19px;
 
 }
 .orange_box
 {
-    background-color:orangered;
+    background-color:rgb(241, 108, 60);
     text-align: center;  
     font-size:14px; 
-    width: 358px;
+    width: 340px;
     height: 168px;
     color: white;
-    padding: 26px;
+    padding: 19px;
 }
 .last_box
 {
     background-color:rgba(173, 216, 230, 0.835);
     text-align: center;  
     font-size:14px; 
-    width: 358px;
-    height: 32px;
+    width: 340px;
+    height: 50px;
     color: white;
-    padding: 26px;
+    padding: 19px;
 
-    
+}
+.hr
+{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(241, 108, 60);
+
+
 }
